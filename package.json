@@ -1,0 +1,24 @@
+{
+  "name": "dicitionary-ladder",
+  "version": "1.0.0",
+  "description": "Calculate the shortest distance to get from one word to another, by changing just one charcter at a time",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./tests/*.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragomirc/Dicitionary-Ladder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragomirc/Dicitionary-Ladder/issues"
+  },
+  "homepage": "https://github.com/Dragomirc/Dicitionary-Ladder#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  }
+}
